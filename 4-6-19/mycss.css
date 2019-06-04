@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+.s1{width:200px;
+height:50px;
+background-color:red;
+border-radius:10px;
+margin-right:5px;
+float:left;
+transition:1s;
+}
+.s1:hover{width:250px;
+transition:1s;
+}
+.clearfix{clear:both;
+}
+.s2{width:200px;
+height:50px;
+background-color:green;
+border-radius:10px;
+position:relative;
+}
+.s4{width:200px;
+height:0px;
+background-color:blue;
+border-radius:10px;
+position:absolute;
+top:50px;
+left:0;
+transition:1s;
+}
+.s2:hover .s4{height:200px;
+transition:1s;
+}
+.s5{width:200px;
+height:200px;
+background-color:red;
+position:relative;
+left:100px;
+top:100px;
+transition:1s;
+}
+.s5:hover{
+	transform:scale(1.5,1.5);
+	transition:1s;
+	}
+.s6{width:200px;
+height:200px;
+background-color:red;
+position:relative;
+left:100px;
+top:200px;
+transition:1s;
+}
+.s6:hover{
+	transform:translate(-200px,100px);
+	transition:1s;
+	}
+
+.s7{width:200px;
+height:200px;
+background-color:red;
+position:relative;
+left:100px;
+top:300px;
+transition:4s;
+}
+.s7:hover{
+	transform:rotate(1800deg);
+	transition:4s;
+	}
