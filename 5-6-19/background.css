@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.main{width:400px;
+height:400px;
+background-color:red;
+background-image:url(sanjay.jpg);
+/*background-repeat:no-repeat;*/
+/*background-repeat:repeat-x;
+background-repeat:repeat-y;
+background-position:100px 50px;*/
+/*background-position:center center;*/
+background-size:100%;
+}
+.main1{width:400px;
+height:400px;
+background-color:red;
+background-image:url(sanjay.jpg), url(sanjay.jpg), url(sanjay.jpg),  url(sanjay.jpg);
+background-repeat:no-repeat, no-repeat, no-repeat, no-repeat;
+background-position:top left,top right, bottom left, bottom right;
+}
+

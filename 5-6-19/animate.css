@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:#C8C3C3;
+}
+.s1{width:200px;
+height:200px;
+background-color:white;
+border:10px solid white;
+border-radius:5px;
+overflow:hidden;
+}
+.s2{width:200px;
+height:200px;
+background-image:url(sanjay.jpg);
+background-size:100%;
+
+position:relative;
+transform:scale(1,1);
+}
+.aa{width:200px;
+height:200px;
+background-color:brown;
+top:0;
+left:0;
+opacity:0;
+position:absolute;
+}
+.a1{width:200px;
+height:50px;
+background-color:black;
+top:-60px;
+left:0;
+position:absolute;
+}
+.a2{width:200px;
+height:50px;
+background-color:black;
+opacity:0;
+top:75px;
+left:0;
+position:absolute;
+}
+.a3{width:200px;
+height:50px;
+background-color:black;
+top:210px;
+left:0;
+position:absolute;
+}
+.s2:hover{transform:scale(1.5,1.5); transition:.4s;
+}
+.s2:hover .aa{opacity:.5; transition:.4s;
+}
+.s2:hover .a1{top:10px; transition:.4s;
+}
+.s2:hover .a2{opacity:1; transition:.4s;
+}
+.s2:hover .a3{top:140px; transition:.4s;
+}
+
