@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+@keyframes ram{
+	0%{left:0;
+	}
+	14.2%{left:0;
+	}
+	28.4%{left:-1024px;
+	}
+	42.6%{left:-1024px;
+	}
+	56.8%{left:-2048px;
+	}
+	71%{left:-2048px;
+	}
+	85.2%{left:-3072px;
+	}
+	99.99%{left:-3072px;
+	}
+	100%{left:0px;
+	}
+}
+.main{width:1024px;
+height:768px;
+position:relative;
+overflow:hidden;
+}
+.s1{width:4096px;
+height:768px;
+position:absolute;
+animation:ram 10s infinite;
+}
+.a1{width:1024px;
+height:768px;
+float:left;
+background-image:url(2.jpg);
+}
+.a2{width:1024px;
+height:768px;
+float:left;
+background-image:url(8.jpg);
+}
+.a3{width:1024px;
+height:768px;
+float:left;
+background-image:url(10.jpg);
+}
