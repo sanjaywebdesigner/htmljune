@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+@keyframes sanjay{
+	0%{background-color:red;
+	}
+	20%{background-color:green;
+	}
+	40%{background-color:brown;
+	}
+	60%{background-color:blue;
+	}
+	80%{background-color:yellow;
+	}
+	100%{background-color:red;
+	}
+}
+.col{width:200px;
+height:200px;
+background-color:red;
+animation:sanjay 15s infinite;
+}
+

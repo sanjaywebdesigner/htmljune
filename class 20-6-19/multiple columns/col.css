@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+.col{width:1000px;
+height:500px;
+border:1px solid black;
+column-count:3;
+text-align:justify;
+column-gap:50px;
+column-rule:red 20px solid;
+}
+
